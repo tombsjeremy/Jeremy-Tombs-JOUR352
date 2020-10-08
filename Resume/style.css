@@ -9,11 +9,16 @@
 }
 
 /*banner name at top*/
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-align: center;
   text-transform: capitalize;
+  border-bottom: 1px;
+  border-color: #33485e;
+  border-style: solid;
+  width: 60%;
+  margin: 0 auto;
 }
 
 /*title under name*/
