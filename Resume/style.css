@@ -2,10 +2,10 @@
 
 /*universal styles*/
 *{
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
   color: #444;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 /*stylizing whole page*/
@@ -38,7 +38,7 @@
   text-transform: capitalize;
   font-size: 1.5em;
   color: #33485e;
-  font-weight: 600px;
+  font-weight: 600;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -53,7 +53,7 @@
   text-transform: capitalize;
   background-color: #33485e;
   color: white;
-  font-weight: 400px;
+  font-weight: 400;
   margin-bottom: 10px;
   margin-top: 20px;
   margin-left: 0px;
@@ -64,19 +64,19 @@
 
 /*job title styles*/
 .jobtitle {
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 1.5em;
 }
 
 /*job organization styles*/
 .organization {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 1.25em;
 }
 
 /*job dates styles*/
 .date {
-  font-weight: 400px;
+  font-weight: 400;
   font-style: italic;
   font-size: 1em;
   margin-top: 2px;
