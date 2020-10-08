@@ -29,29 +29,39 @@ strong {
 }
 
 /*section title styles*/
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: capitalize;
   background-color: #33485e;
   color: white;
   font-weight: 400px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px;
 }
 
 /*job title styles*/
-h3 {
+.jobtitle {
   font-weight: 600px;
   font-size: 1.5em;
 }
 
 /*job organization styles*/
-h4 {
+.organization {
   font-weight: 400px;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /*job dates styles*/
-h5 {
+.date {
   font-weight: 400px;
   font-style: italic;
   font-size: 1em;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
