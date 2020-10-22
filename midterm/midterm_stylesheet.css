@@ -9,10 +9,12 @@
 }
 
 #headline {
-  font-family: Helvetica, sans-serif;
+  font-family: serif, Helvetica;
   font-size: 3em;
   text-align: center;
   font-style: oblique;
+  padding: 100px, 0;
+  margin: 100px, 0;
 }
 
 
@@ -24,8 +26,10 @@ text-align: center;
 padding-bottom: 20px;
 }
 
-#hopecraft{
+.subhead{
   margin-left: 50px;
+  font-family: serif, Helvetica;
+  font-size: 24px;
 }
 
 .captions{
@@ -38,9 +42,10 @@ padding-bottom: 20px;
   border-left: 4px solid #ccc;
 }
 
+/*this affects any paragraphs that aren't specified further by class and id selectors*/
 p{
-  font-size: 13px
-  font-family: Georgia, serif;
+  font-size: 12px
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 blockquote{
