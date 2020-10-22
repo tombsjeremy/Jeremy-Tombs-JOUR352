@@ -1,0 +1,65 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.images{
+  width: 100%;
+  max-width: 1500px;
+}
+
+#headline {
+  font-family: Helvetica, sans-serif;
+  font-size: 3em;
+  text-align: center;
+  font-style: oblique;
+}
+
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+text-align: center;
+padding-bottom: 20px;
+}
+
+#hopecraft{
+  margin-left: 50px;
+}
+
+.captions{
+  font-weight: lighter;
+  font-family: Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 10px;
+  padding-right: 80px;
+  border-left: 4px solid #ccc;
+}
+
+p{
+  font-size: 13px
+  font-family: Georgia, serif;
+}
+
+blockquote{
+font: 24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: red;
+margin-left: 50px;
+padding-left: 10px;
+border-left: 4px solid #ccc;
+}
+
+h3{
+  font-style: oblique;
+}
+
+h4{
+  font-weight: lighter;
+  font-style: italic;
+  margin-left: 50px;
+}
