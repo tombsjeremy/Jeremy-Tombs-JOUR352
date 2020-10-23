@@ -68,3 +68,12 @@ h4{
   font-style: italic;
   margin-left: 50px;
 }
+
+a:visited{
+  color:green;
+  background-color: transparent;
+}
+
+a:hover{
+  font-size: larger;
+}
