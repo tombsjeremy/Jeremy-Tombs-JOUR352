@@ -1,3 +1,72 @@
-#container{
-  
+.container{
+  font-family: 'Alfa Slab One', cursive;
+  color: #e03a3e;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#sectionheader1 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  background-color: #ffd520;
+  color: #e03a3e;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
+}
+
+#sectionheader2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  background-color: #ffd520;
+  color: #e03a3e;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
+}
+
+#sectionheader3 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  background-color: #ffd520;
+  color: #e03a3e;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
+}
+
+#sectionheader4 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  background-color: #ffd520;
+  color: #e03a3e;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
+}
+
+.smalltype{
+  color: #e03a3e;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#bottompage{
+  padding-bottom: 50px;
 }
