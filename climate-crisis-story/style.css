@@ -1,0 +1,134 @@
+#headline{
+  font-size: 2.75em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#byline{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#chapter-headline{
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: Georgia, serif;
+  line-height: 180%;
+  font-size: 1em;
+}
+
+.images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 600px;
+}
+
+#caption{
+  color: #f23030;
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.footer{
+  position: sticky;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer-text{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Top nav */
+.nav-top{
+  color: white;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.red{
+  color: #f23030;
+}
+
+/* hero/splash area */
+
+.hero-container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+}
+
+.hero-head{
+  font-family: 'Playfair Display', serif;
+  font-size: 6em;
+  color: white;
+  margin: 0 auto;
+}
+
+.hero-sub{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding: 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 700px){
+  .hero-head{
+    font-size: 1.5em;
+  }
+}
+
+/* Pull Quotes */
+.quote{
+  font-family: 'Montserrat', sans-serif;
+  color: #f23030;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #f23030;
+  border-bottom: 1px solid #f23030;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote-attribution{
+  font-size: .5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  color: black;
+}
+
+/* end pull quotes*/
