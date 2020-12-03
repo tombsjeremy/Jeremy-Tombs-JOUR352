@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-#chapter-headline{
+.chapter-headline{
   font-size: 2em;
   font-weight: 700;
   text-align: left;
@@ -33,7 +33,7 @@ p{
   max-width: 600px;
 }
 
-#caption{
+.caption{
   color: #f23030;
   font-family: Helvetica, sans-serif;
   font-size: 1em;
@@ -132,3 +132,76 @@ p{
 }
 
 /* end pull quotes*/
+
+/* sidebar */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 75px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display:block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #f23030;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+div.content {
+  margin-left: 100px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+#sidebar-headline {
+  text-align: center;
+  padding-right: 90px;
+  color: #f23030;
+}
+
+#sidebar-list{
+  padding-left: 150px;
+  padding-right: 200px;
+
+}
+
+#sidebar-caption{
+  font-style: italic;
+  padding-right: 200px;
+}
+
+a {
+  color: purple;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:visited{
+  color: #f23030;
+}
