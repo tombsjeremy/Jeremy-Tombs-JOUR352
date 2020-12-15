@@ -140,13 +140,13 @@ p{
 
 /* sidebar */
 .sidebar {
-  margin: 0;
-  padding: 0;
-  width: 75px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+  text-align: center;
+  padding: 15px;
+  border: 5px dashed #773141;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .sidebar a {
@@ -208,5 +208,13 @@ a:hover {
 }
 
 a:visited{
+  color: #FFB612;
+}
+
+.navlink{
+  color: #FFB612;
+}
+
+.navbarbrand{
   color: #FFB612;
 }
